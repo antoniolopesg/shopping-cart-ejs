@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head', { title: 'Page Not Found' }) %>
+    <style>
+      p {
+        text-align: center;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 2.1rem;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        padding: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ops! Page not found</h1>
+      <p>Requested page does not exists</p>
+    </div>
+  </body>
+</html>
